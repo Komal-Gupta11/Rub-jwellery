@@ -1,0 +1,138 @@
+*{
+    font-family:poppins;
+}
+.box2{
+    border: 1px solid black;
+    height: 80vh;
+    width: 100wv;
+    margin-bottom: 7px;
+
+}
+.carousel{
+    height:100%;
+
+}
+.carousel-inner{
+    height: 100%;
+    object-fit: fill;
+}
+.carousel-item{
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: Bolder;
+    color:maroon;
+    margin-bottom:7px;
+}
+.about{
+    border: 1px solid black;
+    height: fit-content;
+    padding: 5%;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 7px;
+    align-items: center;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abox1{
+    /* border: 1px solid blue; */
+    height: 90%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:36vh;
+    width:36vh;
+    border-radius:50%;
+    box-shadow: 5px 5px 5px black;
+
+    /*padding: 3%;*/
+}
+.image{
+    /* border: 1px solid red; */
+    height: 90%;
+    width:  90%;
+    border-radius: 50%;
+}
+.about-img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px blue;
+}
+.abox2{
+    /* border: 1px solid blue; */
+    height: 90%;
+    width: 70%;
+    padding: 7px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 5px 5px 5px black;
+    /* background-color: lavender; */
+}
+.content{
+    /* border: 1px solid red; */
+    padding: 3%;
+    height: fit-content;
+    text-align: justify;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 5px blue;
+}
+.box3{
+    margin-bottom: 7px;
+}
+.box4{
+    display: grid;
+    gap: 7px
+
+}
+.row div{
+    justify-self: center;
+}
+.card{
+    height: 55vh;
+
+
+}
+.card img{
+    height:80%;
+    object-fit: fill;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    .about{
+        flex-direction: column;
+        align-items:center;
+        gap:5%;
+    }
+    .abox1{
+        height:55%;
+        width:45%;
+    }
+    .abox2{
+        width:90%;
+        height:40%;
+    }
+    .box2{
+        height:60vh;
+    }
+}
